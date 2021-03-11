@@ -1,10 +1,10 @@
 ch/noser/uek223/Uek223ApplicationTests.java
  ch.noser.uek223.Uek223ApplicationTests
-ch/noser/uek223/domain/user/unitTest/UserRepositoryTest.java
- ch.noser.uek223.domain.user.unitTest.UserRepositoryTest
-ch/noser/uek223/domain/user/unitTest/UserServiceTest.java
- ch.noser.uek223.domain.user.unitTest.UserServiceTest
 ch/noser/uek223/domain/user/unitTest/UserWebTest.java
  ch.noser.uek223.domain.user.unitTest.UserWebTest
 ch/noser/uek223/domain/user/integrationTest/UserIntegrationTest.java
  ch.noser.uek223.domain.user.integrationTest.UserIntegrationTest
+ch/noser/uek223/domain/user/unitTest/UserRepositoryTest.java
+ ch.noser.uek223.domain.user.unitTest.UserRepositoryTest
+ch/noser/uek223/domain/user/unitTest/UserServiceTest.java
+ ch.noser.uek223.domain.user.unitTest.UserServiceTest

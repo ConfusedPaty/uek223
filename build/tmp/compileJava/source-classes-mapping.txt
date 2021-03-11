@@ -10,32 +10,32 @@ ch/noser/uek223/domain/purchase_product/PurchaseProductRepository.java
  ch.noser.uek223.domain.purchase_product.PurchaseProductRepository
 ch/noser/uek223/domain/user/UserMapper.java
  ch.noser.uek223.domain.user.UserMapper
-ch/noser/uek223/domain/product/dto/ProductDTOForSupplier.java
- ch.noser.uek223.domain.product.dto.ProductDTOForSupplier
+ch/noser/uek223/domain/product/ProductServiceImpl.java
+ ch.noser.uek223.domain.product.ProductServiceImpl
 ch/noser/uek223/domain/role/RoleRepository.java
  ch.noser.uek223.domain.role.RoleRepository
 ch/noser/uek223/domain/purchase/Purchase.java
  ch.noser.uek223.domain.purchase.Purchase
 ch/noser/uek223/domain/user/dto/UserDTOSave.java
  ch.noser.uek223.domain.user.dto.UserDTOSave
-ch/noser/uek223/core/security/authentication/LoginHandler.java
- ch.noser.uek223.core.security.authentication.LoginHandler
+ch/noser/uek223/domain/product/Product.java
+ ch.noser.uek223.domain.product.Product
 ch/noser/uek223/core/security/authentication/AuthenticationService.java
  ch.noser.uek223.core.security.authentication.AuthenticationService
 ch/noser/uek223/core/security/authentication/AuthenticationServiceImpl.java
  ch.noser.uek223.core.security.authentication.AuthenticationServiceImpl
-ch/noser/uek223/domain/product/ProductRepository.java
- ch.noser.uek223.domain.product.ProductRepository
+ch/noser/uek223/domain/product/ProductMapper.java
+ ch.noser.uek223.domain.product.ProductMapper
 ch/noser/uek223/domain/user/dto/UserDTOBasic.java
  ch.noser.uek223.domain.user.dto.UserDTOBasic
-ch/noser/uek223/domain/authority/Authority.java
- ch.noser.uek223.domain.authority.Authority
+ch/noser/uek223/domain/product/ProductService.java
+ ch.noser.uek223.domain.product.ProductService
 ch/noser/uek223/core/security/authorization/AuthorizationFilter.java
  ch.noser.uek223.core.security.authorization.AuthorizationFilter
 ch/noser/uek223/domain/authority/dto/AuthorityDTO.java
  ch.noser.uek223.domain.authority.dto.AuthorityDTO
-ch/noser/uek223/domain/purchase/PurchaseServiceImpl.java
- ch.noser.uek223.domain.purchase.PurchaseServiceImpl
+ch/noser/uek223/domain/purchase_product/PurchaseProduct.java
+ ch.noser.uek223.domain.purchase_product.PurchaseProduct
 ch/noser/uek223/domain/user/UserRepository.java
  ch.noser.uek223.domain.user.UserRepository
 ch/noser/uek223/core/security/authentication/LoginDTO.java
@@ -62,8 +62,8 @@ ch/noser/uek223/domain/purchase/PurchaseService.java
  ch.noser.uek223.domain.purchase.PurchaseService
 ch/noser/uek223/domain/purchase/PurchaseWeb.java
  ch.noser.uek223.domain.purchase.PurchaseWeb
-ch/noser/uek223/domain/product/dto/ProductDTOBasic.java
- ch.noser.uek223.domain.product.dto.ProductDTOBasic
+ch/noser/uek223/domain/product/ProductWeb.java
+ ch.noser.uek223.domain.product.ProductWeb
 ch/noser/uek223/domain/user/UserDetailsImpl.java
  ch.noser.uek223.domain.user.UserDetailsImpl
 ch/noser/uek223/domain/role/RoleMapper.java
@@ -74,15 +74,15 @@ ch/noser/uek223/domain/role/dto/RoleDTO.java
  ch.noser.uek223.domain.role.dto.RoleDTO
 ch/noser/uek223/ServletInitializer.java
  ch.noser.uek223.ServletInitializer
-ch/noser/uek223/domain/product/ProductMapper.java
- ch.noser.uek223.domain.product.ProductMapper
-ch/noser/uek223/domain/product/ProductService.java
- ch.noser.uek223.domain.product.ProductService
-ch/noser/uek223/domain/product/ProductServiceImpl.java
- ch.noser.uek223.domain.product.ProductServiceImpl
-ch/noser/uek223/domain/purchase_product/PurchaseProduct.java
- ch.noser.uek223.domain.purchase_product.PurchaseProduct
-ch/noser/uek223/domain/product/Product.java
- ch.noser.uek223.domain.product.Product
-ch/noser/uek223/domain/product/ProductWeb.java
- ch.noser.uek223.domain.product.ProductWeb
+ch/noser/uek223/domain/product/dto/ProductDTOBasic.java
+ ch.noser.uek223.domain.product.dto.ProductDTOBasic
+ch/noser/uek223/core/security/authentication/LoginHandler.java
+ ch.noser.uek223.core.security.authentication.LoginHandler
+ch/noser/uek223/domain/purchase/PurchaseServiceImpl.java
+ ch.noser.uek223.domain.purchase.PurchaseServiceImpl
+ch/noser/uek223/domain/product/dto/ProductDTOForSupplier.java
+ ch.noser.uek223.domain.product.dto.ProductDTOForSupplier
+ch/noser/uek223/domain/authority/Authority.java
+ ch.noser.uek223.domain.authority.Authority
+ch/noser/uek223/domain/product/ProductRepository.java
+ ch.noser.uek223.domain.product.ProductRepository

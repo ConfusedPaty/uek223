@@ -22,10 +22,11 @@ import static org.hamcrest.Matchers.hasSize;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
+
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class UserWebUnitTest {
+public class UserWebTest {
     @MockBean
     private UserServiceImpl userService;
     @Autowired
