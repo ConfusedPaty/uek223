@@ -1,0 +1,3 @@
+INSERT INTO public.users_role (users_id, role_id) VALUES ('0a281014-7801-11b2-8178-01a73be10003', '00a1f553-c62c-49a8-b481-ba99f03a09ae');
+INSERT INTO public.users_role (users_id, role_id) VALUES ('0a281014-7801-11b2-8178-01a7d8bc0005', '8b2879c3-e150-44bd-a6a1-aae2140c5f4b');
+INSERT INTO public.users_role (users_id, role_id) VALUES ('0a281014-7801-11b2-8178-01a779ee0004', 'fcde81a2-3b8c-41b3-aee0-31a9f79b4322');

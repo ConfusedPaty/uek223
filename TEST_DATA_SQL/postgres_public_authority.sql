@@ -1,0 +1,15 @@
+INSERT INTO public.authority (id, name) VALUES ('4a7ec6f6-3ef4-4a59-871c-e8c50103a7a7', 'CAN_CREATE_PRODUCT');
+INSERT INTO public.authority (id, name) VALUES ('a6cf10d1-d803-4a28-9e0d-2a9f2dd3d5d0', 'CAN_RETRIEVE_ALL_PRODUCTS');
+INSERT INTO public.authority (id, name) VALUES ('91134d68-1d57-4e2a-ad32-91f03389504d', 'CAN_RETRIEVE_PRODUCT');
+INSERT INTO public.authority (id, name) VALUES ('b8cf0c2e-bf7e-4243-9337-42461696e88f', 'CAN_UPDATE_PRODUCT');
+INSERT INTO public.authority (id, name) VALUES ('541d28d9-3f9c-470d-aa84-ec2ab6e5cd61', 'CAN_DELETE_PRODUCT');
+INSERT INTO public.authority (id, name) VALUES ('cc558532-649c-4e4c-80f2-777364a9b7b4', 'CAN_CREATE_PURCHASE');
+INSERT INTO public.authority (id, name) VALUES ('bdaee588-1622-4875-a069-49e611a5c74e', 'CAN_RETRIEVE_ALL_PURCHASES');
+INSERT INTO public.authority (id, name) VALUES ('bfe6d43a-a7a4-4630-a291-62ff55ee66fd', 'CAN_RETRIEVE_PURCHASE');
+INSERT INTO public.authority (id, name) VALUES ('8e75d8d1-dfef-451f-b0c5-b06bb0e9262f', 'CAN_UPDATE_PURCHASE');
+INSERT INTO public.authority (id, name) VALUES ('526ce1c9-7d3c-40fb-a18c-e922279a70dd', 'CAN_DELETE_PURCHASE');
+INSERT INTO public.authority (id, name) VALUES ('125f5166-d759-4116-8c6a-0510e7c4471d', 'CAN_CREATE_USER');
+INSERT INTO public.authority (id, name) VALUES ('430f268d-4208-40f7-af5d-f5ba320769b9', 'CAN_RETRIEVE_ALL_USERS');
+INSERT INTO public.authority (id, name) VALUES ('16b930f6-ba95-4bfe-b635-ab107086dda9', 'CAN_RETRIEVE_USER');
+INSERT INTO public.authority (id, name) VALUES ('7dfea8cb-788b-4227-8091-ef3d994485f7', 'CAN_UPDATE_USER');
+INSERT INTO public.authority (id, name) VALUES ('e5ea8a42-5a79-4bf8-a076-2ef40ce60f11', 'CAN_DELETE_USER');
