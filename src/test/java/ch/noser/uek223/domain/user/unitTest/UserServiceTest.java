@@ -12,6 +12,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 
 import static org.mockito.Mockito.*;
 
@@ -33,5 +35,22 @@ public class UserServiceTest {
                 new User("b4c340c2-8252-11eb-8dcd-0242ac130003", "mustar.mann@gmx.ch", "321Muster", "Peter", "Muster"));
         when(userRepository.findAll()).thenReturn(usersList);
         Assertions.assertEquals(userService.findAll(), usersList);
+    }
+
+    @Test
+    public void testCreateUser() {
+        UUID uuid = UUID.randomUUID();
+        String encryptedPassword = "bCryptEncryptedPassword";
+        User user = new User();
+        user.setFirstName("Test First Name").setLastName("Test Last Name").setEmail("Test Email").setPassword("Test Password");
+
+        when(userRepository.findByEmail(anyString())).thenReturn(Optional.empty());
+        when(bCryptPasswordEncoder.encode(anyString())).thenReturn(encryptedPassword);
+        when(userRepository.saveAndFlush(any(User.class))).then((u -> ((User) u.getArgument(0)).setId(uuid)));
+
+        User userActual = userService.create(user);
+        user.setId(uuid).setPassword(encryptedPassword);
+
+        Assertions.assertEquals(user, userActual);
     }
 }
